@@ -1,0 +1,39 @@
+#optimum {
+  font-size: 18px;
+  margin-left: 27px;
+  position: absolute;
+  margin-top: 9px;
+  line-height: 19px;
+}
+
+#ligne {
+  font-size: 57px;
+  margin-left: 8px;
+  position: absolute;
+  margin-top: -18px;
+  font-weight: lighter;
+}
+
+#admin {
+  font-size: 14px;
+  position: absolute;
+  margin-top: 21px;
+  margin-left: 50px;
+  font-size: 8px;
+}
+#John {
+  font-size: 18px;
+}
+
+.navbar-optimum {
+  margin-left: 23px;
+}
+
+.John-1 {
+  margin-right: 34px;
+  margin-top: -27px;
+}
+
+.navbar-optimum-haut {
+  color: #091e31;
+}
