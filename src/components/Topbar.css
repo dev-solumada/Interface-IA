@@ -1,0 +1,36 @@
+.navbar-recent-Action {
+  background: #103b58;
+  /* margin-left: 299px;
+  margin-top: -8px; */
+  margin: -7px 0 0 -6px;
+}
+
+.navbar-recent-Action .navbar-rA {
+  /* margin-left: 37px;
+  margin-top: 2px;
+  margin-bottom: -15px; */
+}
+.rA {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  margin-top: 4px;
+}
+
+.Home {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  margin-left: 37px;
+  margin-top: 2px;
+  margin-bottom: -15px;
+  color: #ffffff;
+}

@@ -8,7 +8,9 @@ ul {
   padding: 0;
 }
 
-ul li { margin: 0 20px 20px 0; }
+ul li {
+  margin: 0 20px 20px 0;
+}
 li {
   list-style: none;
 }
@@ -21,14 +23,14 @@ li {
     #10375c 360deg
   );
   /* background: rgba(41, 222, 146, 1); */
-  width: 300px;
+  width: 25%;
   height: 100%;
   box-sizing: border-box;
   padding: 41px 0;
 }
-.menu-list-with-acc{
-margin-left: 52px;
-margin-top: 23px;
+.menu-list-with-acc {
+  margin-left: 52px;
+  margin-top: 23px;
 }
 .side-menu .menu-left {
   position: absolute;
@@ -48,29 +50,28 @@ margin-top: 23px;
   display: block;
 }
 
-.side-menu .main-menu .menu-item .menu-icon{
+.side-menu .main-menu .menu-item .menu-icon {
   width: 40px;
   height: 40px;
   display: inline-block;
   line-height: 40px;
   text-align: center;
-  
 }
 
-.side-menu .menu-account{
+.side-menu .menu-account {
   border: 0;
   outline: none;
   height: 35px;
-  display: block ;
+  display: block;
   padding-left: 14px;
-  color: #89A4B0;
+  color: #89a4b0;
   font-size: 24px;
 }
 
-.main-menu
-  { margin: 13px 20px 20px 0; 
+.main-menu {
+  margin: 13px 20px 20px 0;
 }
 
-.menu-li{
-  color: #FFFFFF;
+.menu-li {
+  color: #ffffff;
 }
