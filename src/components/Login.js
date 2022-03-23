@@ -1,5 +1,5 @@
 import './Login.css';
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 import '../../node_modules/font-awesome/css/font-awesome.min.css';
 
 import React from "react";
@@ -8,7 +8,7 @@ import {Link} from 'react-router-dom';
 const Login = () => {
   return (
     <div className="App">
-      <div className="container-fluid">
+      <div className="container-fluid opti-log">
         <div className="col-lg-5 flex-row mx-auto px-0">
             <div className="card container-card pt-2 pb-4" style={{background: "rgba(158, 158, 158, 0.5)", borderRadius: "50px"}}>
                 <div className="container w-75">
