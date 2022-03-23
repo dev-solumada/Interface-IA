@@ -1,7 +1,9 @@
 import './Login.css';
-import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import '../../node_modules/font-awesome/css/font-awesome.min.css';
+
+import React from "react";
+import {Link} from "react-router-dom";
 
 const Login = () => {
   return (
@@ -24,7 +26,9 @@ const Login = () => {
                             <span className="separator">|</span>
                             <input type="password" name="password" placeholder="Password" autoComplete="off" required/>
                         </div>
-                        <button className="button mt-5 mb-5" type="submit">Login</button>
+                        <Link to="/Acceuil">
+                          <button className="button mt-5 mb-5" type="submit">Login</button>
+                        </Link>
                     </div>
                 </div>
             </div>
