@@ -1,26 +1,22 @@
 import React from "react";
-
+import "./Topbar.css";
 const Topbar = () => {
   return (
-  <nav class="navbar navbar-light bg-light">
-    <div class="container-fluid navbar-optimum-haut">
-      <div className="navbar-optimum">
-        <a class="navbar-brand">
-          <div>
-            <span id="ligne">|</span>{" "}
-            <span id="optimum">
-              OPTIMUM <br /> SOLUTION
-            </span>
-          </div>
-        </a>
+    <nav class="navbar">
+      <div class="container-fluid navbar-recent-Action">
+        <div className="navbar-rA">
+          <a class="navbar-brand">
+            <div className="rA">Recent Actions</div>
+          </a>
+        </div>
+        <div className="John-1">
+          <form class="d-flex">
+            <span className="Home">Home &#62; Recent Actions</span>
+          </form>
+        </div>
       </div>
-      <div className="John-1">
-        <form class="d-flex">
-          <span id="John">John Doe</span> <br /> <span id="admin">Admin</span>
-        </form>
-      </div>
-    </div>
-  </nav>)
+    </nav>
+  );
 };
 
 export default Topbar;
