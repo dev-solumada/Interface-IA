@@ -8,7 +8,9 @@ import ShowDoc from "./components/pages/Document/ShowDoc";
 import Path from "./components/pages/Document/Path";
 import AddDoc from "./components/pages/Document/AddDoc";
 import UpdateDoc from "./components/pages/Document/UpdateDoc";
+import Document from "./components/pages/Document/Document";
 import Inspect from "./components/pages/Projet/Inspect";
+import Project from "./components/pages/Projet/Project";
 
 const App = () => {
   return (
@@ -17,6 +19,8 @@ const App = () => {
         <Route exact path="/" element={<Login />}></Route>
         <Route path="/home" element={<Accueil />}></Route>
         <Route path="/account/client" element={<Client />}></Route>
+        <Route path="/account/document" element={<Document />}></Route>
+        <Route path="/account/projet" element={<Project />}></Route>
         <Route
           path="/account/client/3/change"
           element={<UpdateClient />}
