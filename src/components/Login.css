@@ -3,7 +3,7 @@
     padding: 0px;
   }
   
-  html {
+  /*html {
     display: grid;
     height: 100%;
     background: conic-gradient(
@@ -11,7 +11,7 @@
       #29de92 0deg,
       #10375c 360deg
     );
-  }
+  }*/
   
   body {
     position: relative;

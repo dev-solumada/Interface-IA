@@ -1,3 +1,6 @@
+.navbar-optimum-haut{
+  margin-bottom: -30px;
+}
 #optimum {
   font-size: 18px;
   margin-left: 27px;
@@ -18,8 +21,8 @@
   font-size: 14px;
   position: absolute;
   margin-top: 21px;
-  margin-left: 50px;
-  font-size: 8px;
+  margin-left: 36px;
+  font-size: 14px;
 }
 #John {
   font-size: 18px;
