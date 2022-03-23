@@ -1,33 +1,33 @@
 import './Login.css';
 import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import '../../node_modules/font-awesome/css/font-awesome.min.css';
 
 const Login = () => {
   return (
     <div className="App">
-      <div className="login-container">
-        <div className="login-content">
-          <div className="login-title">
-            <span className="title">Optimus Solution</span>
-          </div>
-          <div className="form-container">
-            <div className="form-input">
-              <span className='icon'>
-                <i className='fa fa-user'></i>
-              </span>
-              <span className='separator'>|</span>
-              <input className="input input-username" type="text" placeholder="Username" name="username" autocomplete="off" />
+      <div className="container-fluid">
+        <div className="col-lg-5 flex-row mx-auto px-0">
+            <div className="card container-card pt-2 pb-4" style={{background: "rgba(158, 158, 158, 0.5)", borderRadius: "50px"}}>
+                <div className="container w-75">
+                    <h4 className="title text-center mt-5">
+                        Optimus Solution
+                    </h4>
+                    <div className="form form-box px-3">
+                        <div className="form-input w-100 mr-2">
+                            <span className="icon ml-2"><i className="fa fa-user"></i></span>
+                            <span className="separator">|</span>
+                            <input type="text" name="username" placeholder="Username" tabIndex="10" autoComplete="off" required/>
+                        </div>
+                        <div className="form-input password w-100">
+                            <span className="icon"><i className="fa fa-lock"></i></span>
+                            <span className="separator">|</span>
+                            <input type="password" name="password" placeholder="Password" autoComplete="off" required/>
+                        </div>
+                        <button className="button mt-5 mb-5" type="submit">Login</button>
+                    </div>
+                </div>
             </div>
-            <div className="form-input">
-              <span className='icon'>
-                <i className='fa fa-lock'></i>
-              </span>
-              <span className='separator'>|</span>
-              <input className="input input-password" type="password" placeholder="Password" name="password" autocomplete="off" />
-            </div>
-          </div>
-          <div className='submit-btn'>
-            <button typte='button'>Login</button>
-          </div>
         </div>
       </div>
     </div>

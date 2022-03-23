@@ -1,147 +1,97 @@
-* {
-    margin: 0px;
-    padding: 0px;
-  }
-  
-  /*html {
-    display: grid;
-    height: 100%;
-    background: conic-gradient(
-      from -89.22deg at 100% -2.88%,
-      #29de92 0deg,
-      #10375c 360deg
-    );
-  }*/
-  
-  body {
-    position: relative;
-  }
-  
-  .App {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-  }
-  
-  .login-container {
-    position: absolute;
-    width: 650px;
-    height: 630px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: rgba(158, 158, 158, 0.5);
-    box-shadow: 0px 9px 42px rgba(0, 0, 0, 0.25);
-    border-radius: 50px;
-    padding: 75px 86px 77px 86px;
-    display: grid;
-  }
-  
-  .login-container .login-content {
-    width: 481px;
-    height: 479px;
-    /* background-color: red; */
-    margin: auto;
-  }
-  
-  .login-container .login-content .login-title {
-    width: 100%;
-    height: 83px;
-    text-align: center;
-    align-items: center;
+.container-fluid
+{
+    height: 100vh;
+    background: conic-gradient(from -89.22deg at 100% -2.88%,#29de92 0deg,#10375c 360deg);
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    margin-bottom: 95px;
-  }
-  
-  .login-container .login-content .login-title .title {
+}
+
+
+.container-card
+{
+    max-width: 80%;
+    min-width: 400px;
+    margin: auto;
+    overflow: hidden;
+    border: 0 !important;
+    /* border-radius: 50px;
+    background: rgba(158, 158, 158, 0.5); */
+    box-shadow: 0px 9px 42px rgba(0, 0, 0, 0.25);
+}
+
+.form
+{
+    justify-content: space-evenly;
+}
+
+.title
+{
+    font-size: 34px;
+    margin-bottom: 4rem;
+    font-family: 'Rosario' sans-serif;
     color: white;
-    font-family: "Rosario";
     font-weight: 400;
     font-style: normal;
-    font-size: 34px;
     text-transform: uppercase;
-  }
-  
-.login-container .login-content .form-container
-{
-  display: flex;
-  flex-direction: column;
-  height: auto;
-  width: 100%;
-  margin-bottom: 100px;
-}
-  
-.login-container .login-content .form-container .form-input
-{
-  width: auto;
-  height: 45px;
-  background-color: #FEFFFF;
-  margin-bottom: 20px;
-  border-radius: 50px;
-  justify-content: center;
-  align-items: center;
-  padding: 18px 76px 17px 20px;
-  display: flex;
-  justify-content: space-between;
-  
 }
 
-.login-container .login-content .form-container .form-input input
+.form-input
 {
-  width: 290px;
-  height: 40px;
-  outline: none;
-  border-color: transparent;
-  font-family: 'RobotoFlex';
-  color: rgba(9, 30, 49,  0.6);
-  line-height: 28px;
-  font-size: 24px;
-  font-style: normal;
-  margin: 2px;
-  box-sizing: border-box;
-  background-color: #FEFFFF;
+    position: relative;
+    height: 55px;
+    background-color: #FEFFFF;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    justify-content:center;
+    align-items: center;
+    display: flex;
 }
 
-.login-container .login-content .form-container .form-input input::placeholder
+.form-input .icon
 {
-  margin-left: 50px;
+    height: 25px;
+    width: 25px;
+    font-size: 25px;
+    color: #32444B;
+    margin-bottom: 8px;
 }
 
-.login-container .login-content .form-container .form-input .icon 
+.form-input input
 {
-  margin-left: 10px;
-  height: 30px;
-  width: 30px;
-  font-size: 30px;
-  color: #32444B;
+    width: 70%;
+    outline: none;
+    color: rgba(9, 30, 49, 0.6);
+    height: 40px;
+    border-color: transparent;
+    font-family: 'RobotoFlex';
+    line-height: 28px;
+    font-style: normal;
+    font-size: 24px;
+    margin: 2px;
+    box-sizing: border-box;
+    background-color: #FEFFFF;
 }
 
-.login-container .login-content .form-container .form-input .separator
+.form-input .separator
 {
-  font-size: 52px;
-  color: #32444B;
-  margin-bottom: 3px;
-}
-
-.login-container .login-content .submit-btn
-{
-  width: auto;
-  justify-content: flex-end;
-}
-
-.login-container .login-content .submit-btn button
-{
-  width: 144px;
-  height: 53px;
-  border-radius: 50px;
-  border: none;
-  cursor: pointer;
-  color: #091E31;
-  font-size: 24px;
-  font-weight: 400;
-  font-family: 'Roboto';
-  float: right;
+    font-size: 28px;
+    color: #32444B;
+    margin-left: 10px;
 }
 
 
+.button
+{
+    width: 40%;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    color: #091E31;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    float: right;
+}
