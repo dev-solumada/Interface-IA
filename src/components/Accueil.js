@@ -10,7 +10,8 @@ const Accueil = () => {
       <Header />
       <Sidebar />
       Accueil
-      <Topbar />
+      
+      
       <Footer />
     </div>
   );
