@@ -3,6 +3,7 @@ import Header from "./Header";
 import Sidebar from "./Sidebar";
 import Footer from "./Footer";
 import Topbar from "./Topbar";
+import "./Accueil.css";
 
 const Accueil = () => {
   return (
@@ -16,35 +17,36 @@ const Accueil = () => {
         </div>
         <div className="col-md-9">
           <Topbar />
-          <div className="row ">
-            <div className="col-md-2">My Action :</div>
+          <div className="row tab-act">
+            <div className="col-md-2">
+              <div className=" my-action">My Action :</div></div>
             <div className="col-md-8">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
-                  </tr>
-                </thead>
+              <table class="table table-my-action">
                 <tbody>
-                  <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
+                  <tr className="thead-color">
+                    <td >ACTION</td>
+                    <td >ITEM</td>
+                    <td>PROJECT NAME</td>
                   </tr>
-                  <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
+                  <tr className="tr-body">
+                    <td>1</td>
+                    <td>Document</td>
+                    <td>Project lanch</td>
                   </tr>
-                  <tr>
-                    <th scope="row">3</th>
-                    <td colspan="2">Larry the Bird</td>
-                    <td>@twitter</td>
+                  <tr className="tr-body">
+                    <td>2</td>
+                    <td>User</td>
+                    <td>Admin changed</td>
+                  </tr>
+                  <tr className="tr-body">
+                    <td>3</td>
+                    <td >Document</td>
+                    <td >Document droped</td>
+                  </tr>
+                  <tr className="tr-body">
+                    <td>4</td>
+                    <td >Document</td>
+                    <td>Project lanch</td>
                   </tr>
                 </tbody>
               </table>
