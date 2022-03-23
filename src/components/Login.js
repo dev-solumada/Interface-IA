@@ -26,7 +26,7 @@ const Login = () => {
                             <span className="separator">|</span>
                             <input type="password" name="password" placeholder="Password" autoComplete="off" required/>
                         </div>
-                        <Link to="/Acceuil">
+                        <Link to="/home">
                           <button className="button mt-5 mb-5" type="submit">Login</button>
                         </Link>
                     </div>
