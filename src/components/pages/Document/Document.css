@@ -1,0 +1,67 @@
+.thead-color{
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.fa-doc-xx{
+    color: red;
+}
+
+.fa-doc-chek{
+    color: green;
+}
+
+.button-inspect{
+    background: #D7E6FF;
+    border: 1px solid #F8FAFC;
+    border-radius: 50px;
+    width: 70px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    color: #091E31;
+    font-weight: 400;
+}
+
+.bi-client{
+    margin-right: 12px;
+}
+
+/* selection */
+
+.select-action{
+    margin-left: 79px;
+}
+
+.icon-recherch{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.input-recherch{
+    height: 30px;
+}
+
+.button-add-doc{
+    width: 182px;
+    height: 36px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    background: rgba(158, 158, 158, 0.5);
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    float: right;
+}
+
+.btn-add-d {
+    text-decoration: none;
+}
+.fa-add-doc{    
+    color: #091E31;
+    margin: 12px;
+    padding: 2px;
+    font-size: 18px;
+}
