@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin: 0 20px 20px 0;
+}
+li {
+  list-style: none;
+}
+
+.side-menu {
+  position: fixed;
+  background: conic-gradient(
+    from -89.22deg at 95.86% -2.88%,
+    #29de92 0deg,
+    #10375c 360deg
+  );
+  /* background: rgba(41, 222, 146, 1); */
+  width: 25%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 41px 0;
+}
+.menu-list-with-acc {
+  margin-left: 52px;
+  margin-top: 23px;
+}
+.side-menu .menu-left {
+  position: absolute;
+}
+.side-menu .toogle-menu-btn {
+  color: #091e31;
+  font-size: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.menu-icon{
+  margin-right: 12px;
+}
+.menu-item {
+  color: #89a4b0;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+}
+
+.menu-text{
+  color: #ffffff;
+}
+
+.side-menu .main-menu .menu-item .menu-icon {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  line-height: 40px;
+  text-align: center;
+}
+
+.menu-account {
+  border: 0;
+  outline: none;
+  height: 35px;
+  display: block;
+  color: #89a4b0;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.main-menu {
+  margin: 13px 20px 20px 0;
+}
+
+.menu-li {
+  color: #ffffff;
+}

@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Login from "./components/Login";
 import Client from "./components/pages/Client/Client";
-import Accueil from "./components/Accueil";
+import Accueil from "./components/nouveau-header/Accueil";
 import UpdateClient from "./components/pages/Client/UpdateClient";
 import ShowDoc from "./components/pages/Document/ShowDoc";
 import Path from "./components/pages/Document/Path";

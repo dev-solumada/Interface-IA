@@ -1,5 +1,6 @@
 import React from "react";
 import "./Topbar.css";
+import {Link} from 'react-router-dom';
 
 const Topbar = () => {
   return (
@@ -12,7 +13,8 @@ const Topbar = () => {
         </div>
         <div className="John-1">
           <form class="d-flex">
-            <span className="Home">Home &#62; Recent Actions</span>
+            <span > <Link className="Home" to="/home" style={{ textDecoration: 'none' }}>Home</Link> </span>
+             {/* &#62; Recent Actions</span> */}
           </form>
         </div>
       </div>

@@ -1,3 +1,20 @@
+.sidebar-color{
+    position: fixed;
+    background: conic-gradient(
+      from -89.22deg at 95.86% -2.88%,
+      #29de92 0deg,
+      #10375c 360deg
+    );
+    /* background: rgba(41, 222, 146, 1); */
+    width: 25%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 41px 0;
+}
+
+.side-topbar{
+    margin-top: 12px;
+}
 .tab-act{
     margin-top: 65px;
     /* font-family: 'Sarala'; */
