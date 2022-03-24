@@ -10,6 +10,7 @@
 .thead-color{
     font-size: 14px;
     line-height: 16px;
+    background: rgba(7, 54, 108, 0.1);
 }
 
 .my-action{   
@@ -29,4 +30,20 @@
 .tr-body{ 
     font-size: 18px;
     line-height: 21px;
+}
+
+
+.bi-docmt{
+    color: #4BB543;
+}
+
+.bi-usr{
+    color: #B86E00;
+}
+
+.bi-drop-dc{
+    color: #D0342C;
+}
+.bi-cpl{
+    text-align: center;
 }
