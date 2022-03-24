@@ -30,3 +30,19 @@
     font-size: 18px;
     line-height: 21px;
 }
+
+.fa-docmt{
+    color: green;
+}
+
+.fa-edit-user{
+    color: orange;
+}
+
+.fa-drop-doc{
+    color: red;
+}
+
+.thead-color{
+    background: rgba(7, 54, 108, 0.1);
+}

@@ -21,30 +21,30 @@ const Accueil = () => {
             <div className="col-md-2">
               <div className=" my-action">My Action :</div></div>
             <div className="col-md-8">
-              <table class="table table-my-action">
-                <tbody>
-                  <tr className="thead-color">
-                    <td >ACTION</td>
+              <table class="table">
+                <tbody >
+                  <tr className="thead-color ">
+                    <td className="text-center">ACTION</td>
                     <td >ITEM</td>
                     <td>PROJECT NAME</td>
                   </tr>
                   <tr className="tr-body">
-                    <td>1</td>
+                    <td className="text-center"><i class="fa fa-plus-circle fa-docmt"></i></td>
                     <td>Document</td>
                     <td>Project lanch</td>
                   </tr>
                   <tr className="tr-body">
-                    <td>2</td>
+                    <td className="text-center"><i class="fa fa-edit fa-edit-user"></i></td>
                     <td>User</td>
                     <td>Admin changed</td>
                   </tr>
                   <tr className="tr-body">
-                    <td>3</td>
+                    <td className="text-center"><i class="fa fa-trash fa-drop-doc"></i></td>
                     <td >Document</td>
                     <td >Document droped</td>
                   </tr>
                   <tr className="tr-body">
-                    <td>4</td>
+                    <td className="text-center"><i class="fa fa-plus-circle fa-docmt"></i></td>
                     <td >Document</td>
                     <td>Project lanch</td>
                   </tr>
