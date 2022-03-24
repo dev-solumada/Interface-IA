@@ -1,0 +1,113 @@
+.navbar-optimum-haut{
+  margin-bottom: -30px;
+}
+#optimum {
+  font-size: 18px;
+  margin-left: 27px;
+  position: absolute;
+  margin-top: 9px;
+  line-height: 19px;
+}
+
+#ligne {
+  font-size: 57px;
+  margin-left: 8px;
+  position: absolute;
+  margin-top: -18px;
+  font-weight: lighter;
+}
+
+#admin {
+  font-size: 14px;
+  position: absolute;
+  margin-top: 21px;
+  margin-left: 36px;
+  font-size: 14px;
+}
+#John {
+  font-size: 18px;
+}
+
+.navbar-optimum {
+  margin-left: 23px;
+}
+
+.John-1 {
+  margin-right: 34px;
+  margin-top: -27px;
+}
+
+.navbar-optimum-haut {
+  color: #091e31;
+}
+
+
+
+/* Start Header */
+.header
+{
+    background-color: #FFFEFC;
+    z-index: 1;
+    height: 10vh;
+}
+/* Company Logo Side */
+.img
+{
+    width: 73px;
+    height: 64px;
+}
+
+.img .logo
+{
+    width: fit-content;
+    height: max-content;
+
+}
+
+#separator
+{
+    font-size: 45px;
+    font-weight: lighter;
+}
+
+.cpn-name
+{
+    font-weight: 400;
+    font-family: 'Roboto';
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #091E31;
+}
+
+/* End Company Logo Side */
+
+/* User logo Side */
+
+#user-icon
+{
+    font-size: 30px;
+    color: #32444B;
+}
+
+.info-container
+{
+    margin-left: 12px;
+}
+
+#username
+{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #32444B;
+}
+
+#user-status
+{
+  position: absolute;
+  margin-top: 21px;
+  margin-left: 36px;
+  font-size: 14px;
+}
+
+/* End User logo Side */
