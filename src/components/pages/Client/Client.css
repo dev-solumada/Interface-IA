@@ -1,0 +1,193 @@
+
+/* Main Content */
+.main-content
+{
+    height: auto;
+    width: 75%;
+    margin-left: 25%;
+    background: white;
+}
+
+/* section Recent */
+.main-content .recent-section
+{
+    width: 100%;
+    background-color: #103B58;
+    height: 40px;
+}
+
+.sct 
+{
+    height: 40px;
+}
+
+#rct-act
+{
+    font-size: 18px;
+    color: white;
+    margin-left: 40px;
+}
+
+#breadcrumb
+{
+    font-size: 14px;
+    color: white;
+    margin-right: 12px;
+}
+/* End section Recent */
+
+/* Changed Section */
+.cgd-sct
+{
+    padding: 100px 50px 0px 70px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+/* End Changed Section */
+
+/* action row */
+.sectionOption
+{
+    width: 100%;
+    height: 60px;
+}
+
+/* action side */
+.actionSide
+{
+    padding: 3px;
+}
+
+.act-text
+{
+    font-size:12;
+    font-family: 'Rosario';
+}
+
+.select-act
+{
+    margin-left: 15px;
+    margin-top: 2px;
+    height: 100%;
+    border-radius: 60px;
+}
+
+.select-act select
+{
+    text-align: center;
+    height: auto;
+    width: 100%;
+    border-radius: 50px;
+    background-color: #DCDCDC;
+    border: none;
+}
+
+
+.select-act select:focus
+{
+    background-color: #DCDCDC;
+    border: none;
+}
+
+.select-act select option
+{
+    background-color: white;
+    font-size: 14px;
+    font-style: normal;
+    font-family: 'Roboto';
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.colorized-action
+{
+    background-color: #DCDCDC;
+    border-radius: 50px;
+    height: 40px;
+}
+
+.act-item
+{
+    width: 100%;
+}
+
+.aply
+{
+    margin-top: 5px;
+}
+
+.btn-apply
+{
+    background-color: transparent;
+    width: 70px;
+    font-size: 18px;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+}
+
+.sep 
+{
+    margin-right: 5px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+/* end action side */
+
+/* .searchSide
+{
+    background-color: grey;
+} */
+
+.colorized-search
+{
+    background-color: #DCDCDC;
+    border-radius: 50px;
+    padding: 5px;
+    width: 100%;
+}
+
+.search-Icon
+{
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.search-input input
+{
+    background-color: #DCDCDC;
+    border: none;
+    font-size: 17px;
+    color: #091E31;
+}
+
+.search-input input:focus
+{
+    border: none;
+    outline: none;
+}
+
+.search-sep
+{
+    font-size: 18px;
+    font-weight: lighter;
+    color: #32444B;
+    margin-right: 5px;
+}
+
+.btn-search button
+{
+    border-radius: 0px 50px 50px 0px;
+    font-size: 16;
+    font-family: 'Rosario';
+    border: none;
+    outline: none;
+    padding: 2px;
+    width: auto;
+    background-color: transparent;
+}
+
+/* End action row */
+
+/* End Main Content */
