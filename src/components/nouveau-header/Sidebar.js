@@ -6,13 +6,13 @@ const Sidebar = (props) => {
   return (
     
     <div class="sidebar">
-    <div class="menu-container d-flex flex-column mt-5">
-        <div class="menu mx-auto main-menu">
+    <div class="menu-container flex-column">
+        <div class="menu main-menu1">
         <div class="menu-account">
             Account
         </div>
             <ul class="d-flex flex-column">
-                <li class="menu-item d-inline-flex">
+                <li class="menu-item d-inline-flex " style={{ textDecoration: 'none' }}>
                   <Link to="/account/client" style={{ textDecoration: 'none' }}>
                 <a className="menu-item">
                         <span class="menu-icon"><i class="fa fa-user"></i></span>
@@ -33,7 +33,7 @@ const Sidebar = (props) => {
                   <Link to="/account/projet" style={{ textDecoration: 'none' }}>
                 <a className="menu-item">
                         <span class="menu-icon"><i class="fa fa-clipboard"></i></span>
-                        <span class="menu-text">Clients</span>
+                        <span class="menu-text">Projects</span>
                     </a>
                     </Link>
                 </li>
