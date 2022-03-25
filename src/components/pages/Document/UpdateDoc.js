@@ -59,7 +59,7 @@ const UpadateClient = () => {
                     <input type="checkbox" id="inputPath" />
                   </div>
                   <div class="col-sm-4">
-                    <input type="file" class="form-control" id="inputPath" />
+                    <input type="file" size="60" />
                   </div>
                 </div>
                 <div class="mb-3 row">

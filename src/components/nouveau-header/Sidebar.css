@@ -42,8 +42,18 @@ li {
   top: 0;
   right: 0;
 }
+
+.menu-item:hover {
+  color: #ffffff;
+}
+
 .menu-icon{
   margin-right: 12px;
+  text-decoration: none;
+}
+
+.menu-item .menu-icon{
+  text-decoration: none;
 }
 .menu-item {
   color: #89a4b0;
@@ -83,4 +93,8 @@ li {
 .main-menu1 {    
   margin-left: 52px;
   margin-top: 23px;
+}
+
+.menu-icon{
+
 }
