@@ -145,3 +145,14 @@
 .link-doc{
     color: #6891A2;
 }
+
+.url-updat-doc{    
+    text-decoration: none;
+    color: #89a4b0;
+    font-weight: 500;
+}
+
+.url-updat-doc:hover{
+    color: #10375c;
+    text-decoration: none;
+}

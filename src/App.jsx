@@ -4,6 +4,7 @@ import Login from "./components/Login";
 import Client from "./components/pages/Client/Client";
 import Accueil from "./components/nouveau-header/Accueil";
 import UpdateClient from "./components/pages/Client/UpdateClient";
+import AddClient from "./components/pages/Client/AddClient";
 import ShowDoc from "./components/pages/Document/ShowDoc";
 import Path from "./components/pages/Document/Path";
 import AddDoc from "./components/pages/Document/AddDoc";
@@ -24,6 +25,10 @@ const App = () => {
         <Route
           path="/account/client/3/change"
           element={<UpdateClient />}
+        ></Route>
+        <Route
+          path="/account/client/addClient"
+          element={<AddClient />}
         ></Route>
         <Route path="/account/document/?projet=2" element={<ShowDoc />}></Route>
         <Route path="/path" element={<Path />}></Route>
