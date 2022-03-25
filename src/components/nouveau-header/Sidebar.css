@@ -56,7 +56,7 @@ li {
   color: #ffffff;
 }
 
-.side-menu .main-menu .menu-item .menu-icon {
+.side-menu .menu-item .menu-icon {
   width: 40px;
   height: 40px;
   display: inline-block;
@@ -74,10 +74,13 @@ li {
   margin-bottom: 16px;
 }
 
-.main-menu {
-  margin: 13px 20px 20px 0;
-}
 
 .menu-li {
   color: #ffffff;
+}
+
+
+.main-menu1 {    
+  margin-left: 52px;
+  margin-top: 23px;
 }

@@ -1,4 +1,78 @@
+.sidebar-color{
+    position: fixed;
+    background: conic-gradient(
+      from -89.22deg at 95.86% -2.88%,
+      #29de92 0deg,
+      #10375c 360deg
+    );
+    /* background: rgba(41, 222, 146, 1); */
+    width: 20%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 41px 0;
+}
+
+.side-topbar{
+    margin-top: 12px;
+}
+.tab-act{
+    margin-top: 65px;
+    /* font-family: 'Sarala'; */
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    color: #091E31;
+}
+
 .thead-color{
+    font-size: 14px;
+    line-height: 16px;
+    background: rgba(7, 54, 108, 0.1);
+}
+
+.my-action{   
+    margin-left: 56px;
+    margin-top: 21px;
+}
+
+.thead-color{
+    /* font-family: 'Sarala'; */
+    background: rgba(255, 255, 255, 1)6;
+}
+.table-my-action{
+    border-spacing: 14px;
+    border-collapse: separate;
+}
+
+.tr-body{ 
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.fa-docmt{
+    color: green;
+}
+
+.fa-edit-user{
+    color: orange;
+}
+
+.fa-drop-doc{
+    color: red;
+}
+
+.thead-color{
+    background: rgba(7, 54, 108, 0.1);
+}
+
+.main-content {
+    height: auto;
+    width: 80%;
+    margin-left: 20%;
+    background: white;
+}
+
+/* .thead-color{
     font-size: 14px;
     line-height: 16px;
 }
@@ -27,7 +101,7 @@
     margin-right: 12px;
 }
 
-/* selection */
+/* selection * /
 
 .select-action{
     margin-left: 79px;
@@ -64,4 +138,4 @@
     margin: 12px;
     padding: 2px;
     font-size: 18px;
-}
+} */

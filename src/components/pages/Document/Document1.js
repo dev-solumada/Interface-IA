@@ -1,25 +1,24 @@
 import React from "react";
-import Header from "./Header";
-import Sidebar from "./Sidebar";
-import Footer from "./Footer";
-import Topbar from "./Topbar";
+import Header from "./../../nouveau-header/Header";
+import Sidebar from "./../../nouveau-header/Sidebar";
+import Topbar from "./../../nouveau-header/Topbar";
 
-import "./Accueil.css"
-const Accueil = () => {
-  return (
+const Document1 = () => {
+   return( 
     <div className="container-fluid d-flex flex-column .main-container">
-      <Header />
-      <div className="row d-flex d-inline-flex side-topbar">
-        <div className="col-md-2 col-2 sidebar-color">
-          <Sidebar />
-        </div>
-        <div className="col-md-10 col-10 main-content">
-          <div className="row">
-            <div className="col-12 recent-section">
-              <Topbar />
+        <Header />
+        <div className="row d-flex d-inline-flex side-topbar">
+            <div className="col-md-2 col-2 sidebar-color">
+            <Sidebar />
             </div>
-          </div>
+            <div className="col-md-10 col-10 main-content">
+            <div className="row">
+                <div className="col-12 recent-section">
+                <Topbar />
+                </div>
+            </div>
 
+            
           <div className="row tab-act">
             <div className="col-md-2">
               <div className=" my-action">My Action :</div></div>
@@ -55,10 +54,10 @@ const Accueil = () => {
               </table>
             </div>
           </div>
+            </div>
+
         </div>
-      </div>
-    </div>
-  );
+    </div>)
 };
 
-export default Accueil;
+export default Document1;

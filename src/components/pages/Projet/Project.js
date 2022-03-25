@@ -1,26 +1,30 @@
 import React from "react";
-import Header from "./../../Header";
-import Sidebar from "./../../Sidebar";
-import Topbar from "./../../Topbar";
+import Header from "./../../nouveau-header/Header";
+import Sidebar from "./../../nouveau-header/Sidebar";
+import Topbar from "./../../nouveau-header/Topbar";
 
 const Project = () => {
-   return( <div>
-      <div className="row">
+   return( 
+    <div className="container-fluid d-flex flex-column .main-container">
         <Header />
-      </div>
-      <div className="row">
-        <div className="col-md-3">
-          <Sidebar />
-        </div>
-        <div className="col-md-9">
-          <Topbar />
-          <div className="row tab-act">
-            <div className="col-md-2">
-              <div className=" my-action">PROJECT :</div>
+        <div className="row d-flex d-inline-flex side-topbar">
+            <div className="col-md-2 col-2 sidebar-color">
+            <Sidebar />
             </div>
-          </div>
+            <div className="col-md-10 col-10 main-content">
+            <div className="row">
+                <div className="col-12 recent-section">
+                <Topbar />
+                </div>
+            </div>
+
+            
+          <div className="row tab-act">
+            PROJECT
+
         </div>
-      </div>
+        </div>
+        </div>
     </div>)
 };
 
