@@ -21,7 +21,7 @@ const Document = () => {
             
         <div class="row d-flex d-inline-flex">
           
-            <div class="main-content">
+            <div class="">
                 <div class="row">
                     <div class="col-12 cgd-sct ">
                         <div class="container d-flex d-inline-flex">

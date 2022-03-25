@@ -40,7 +40,7 @@ const Client = () => {
                                               <div className="col-3 my-auto">
                                                   <h5 className="act-text">ACTION: </h5>
                                               </div>
-                                              <div className="col-9 colorized-action">
+                                              {/* <div className="col-9 colorized-action">
                                                   <div className="row">
                                                       <div className="col-8 act-container">
                                                           <div className="input-group select-act">
@@ -59,12 +59,12 @@ const Client = () => {
                                                           </div>
                                                       </div>
                                                   </div>
-                                              </div>
+                                              </div> */}
                                           </div>
                                       </div>
-                                      <div className="d-flex justify-content-end">
+                                      {/* <div className="d-flex justify-content-end">
                                           <span>0 of 4 item selected</span>
-                                      </div>
+                                      </div> */}
                                   </div>
                               </div>
                               <div className="col-4 searchSide">
