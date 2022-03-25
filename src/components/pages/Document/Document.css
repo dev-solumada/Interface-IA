@@ -65,14 +65,8 @@
     background: rgba(7, 54, 108, 0.1);
 }
 
-.main-content {
-    height: auto;
-    width: 80%;
-    margin-left: 20%;
-    background: white;
-}
 
-/* .thead-color{
+.thead-color{
     font-size: 14px;
     line-height: 16px;
 }
@@ -101,7 +95,7 @@
     margin-right: 12px;
 }
 
-/* selection * /
+/* selection */
 
 .select-action{
     margin-left: 79px;
@@ -138,4 +132,16 @@
     margin: 12px;
     padding: 2px;
     font-size: 18px;
-} */
+}
+
+.main-content-2{
+    
+    height: auto;
+    width: 80%;
+    margin-left: 20%;
+    background: white;
+}
+
+.link-doc{
+    color: #6891A2;
+}

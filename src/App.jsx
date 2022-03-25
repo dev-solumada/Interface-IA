@@ -8,7 +8,7 @@ import ShowDoc from "./components/pages/Document/ShowDoc";
 import Path from "./components/pages/Document/Path";
 import AddDoc from "./components/pages/Document/AddDoc";
 import UpdateDoc from "./components/pages/Document/UpdateDoc";
-import Document from "./components/pages/Document/Document1";
+import Document from "./components/pages/Document/Document";
 import Inspect from "./components/pages/Projet/Inspect";
 import Project from "./components/pages/Projet/Project";
 
