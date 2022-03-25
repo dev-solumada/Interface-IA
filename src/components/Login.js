@@ -11,16 +11,12 @@ const Login = () => {
           </div>
           <div className="form-container">
             <div className="form-input">
-              <span className='icon'>
-                <i className='fa fa-user'></i>
-              </span>
+                <i className='fa fa-user icon'></i>
               <span className='separator'>|</span>
               <input className="input input-username" type="text" placeholder="Username" name="username" autocomplete="off" />
             </div>
             <div className="form-input">
-              <span className='icon'>
-                <i className='fa fa-lock'></i>
-              </span>
+                <i className='fa fa-lock icon'></i>
               <span className='separator'>|</span>
               <input className="input input-password" type="password" placeholder="Password" name="password" autocomplete="off" />
             </div>
