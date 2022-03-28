@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./../../nouveau-header/Header";
 import Sidebar from "./../../nouveau-header/Sidebar";
 import Topbar from "./../../nouveau-header/Topbar";
+import { Link } from "react-router-dom";
 
 
 import "./../../../../node_modules/font-awesome/css/font-awesome.min.css";
@@ -46,7 +47,7 @@ const Client = () => {
                                                                 </div>
                                                                 <div className="col-7">
                                                                     <div className="select">
-                                                                        <select class="form-select form-select-sm text-center slct" width="100%" aria-label=".form-select-sm example">
+                                                                        <select id="slct" class="form-select form-select-sm text-center slct" width="100%" style={{apparence: 'none'}}>
                                                                             <option disabled selected>-----------</option>
                                                                             <option value="1">Edit</option>
                                                                             <option value="2">Remove</option>
@@ -89,7 +90,7 @@ const Client = () => {
                                                                     <div className="m-2">
                                                                         <span id="src-ico"><i class="fa fa-search"></i></span>
                                                                     </div>
-                                                                    <div className="d-block mt-1">
+                                                                    <div className="w-100 mt-1">
                                                                         <div className="input-group input-group-sm input-container">
                                                                             <input className="form-control input-search" type="search" name="" id="" />
                                                                         </div>
@@ -97,11 +98,11 @@ const Client = () => {
                                                                 </div>
                                                             </div>
                                                             <div className="col-2">
-                                                                <div className="d-flex d-inline-flex mt-1">
+                                                                <div className="d-flex d-inline-flex justify-content-center mt-1">
                                                                     <div className="sep-search">
                                                                         <span id="act-sep">|</span>
                                                                     </div>
-                                                                    <input type="search" id="btn-apply" name="search" />
+                                                                    <input type="submit" value="Search" id="btn-apply" name="search" />
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -122,46 +123,46 @@ const Client = () => {
                                         <tr>
                                             <th><input type="checkbox" name="quickAct" id="" /></th>
                                             <th>CLIENT</th>
-                                            <th>NAME</th>
-                                            <th>CREATED AT</th>
-                                            <th>UPDATED AT</th>
+                                            <th>COUNT PROJET</th>
                                             <th>SHOW CLIENT PROJECT</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td><input type="checkbox" name="" id="" /></td>
-                                            <td>Mathieu</td>
-                                            <td>Personalisation</td>
-                                            <td>March 8, 2022, 5:43</td>
+                                            <td>Clara</td>
+                                            <td>1</td>
                                             <td></td>
-                                            <td>Show Document</td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="checkbox" name="" id="" /></td>
+                                            <td>Mark</td>
+                                            <td>0</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="checkbox" name="" id="" /></td>
+                                            <td>John Doe</td>
+                                            <td>1</td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td><input type="checkbox" name="" id="" /></td>
                                             <td>Mathieu</td>
-                                            <td>Personalisation</td>
-                                            <td>March 8, 2022, 5:43</td>
+                                            <td>4</td>
                                             <td></td>
-                                            <td>Show Document</td>
-                                        </tr>
-                                        <tr>
-                                            <td><input type="checkbox" name="" id="" /></td>
-                                            <td>Mathieu</td>
-                                            <td>Personalisation</td>
-                                            <td>March 8, 2022, 5:43</td>
-                                            <td></td>
-                                            <td>Show Document</td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </div>
                             <div class="row">
                                 <div class="col justify-content-end">
-                                    <button id="btn-add" class="d-flex d-inline-flex">
-                                        <span class="add-ico"><i class="fa fa-plus-circle"></i></span>
-                                        <span class="add-txt">Add Client</span>
-                                    </button>
+                                    <Link to="/account/client/addClient">
+                                        <button id="btn-add" class="d-flex d-inline-flex">
+                                            <span class="add-ico"><i class="fa fa-plus-circle"></i></span>
+                                            <span class="add-txt">Add Client</span>
+                                        </button>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
