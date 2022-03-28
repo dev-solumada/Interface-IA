@@ -57,7 +57,7 @@
 }
 
 
-select {
+.select #slct {
     -o-appearance: none;
     -ms-appearance: none;
     -webkit-appearance: none;
@@ -167,8 +167,20 @@ select option
     outline: none;
     border: none;
     border-radius: 50px;
-    padding: 2px 5px 2px 5px;
+    padding: 2px 15px 2px 15px;
     background: #DCDCDC;
     float: right;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #091E31;
+    font-size: 14px;
+
 }
 
+
+.table th
+{
+    font-size: 14px;
+    color: #091E31;
+    font-weight: 400;
+}
