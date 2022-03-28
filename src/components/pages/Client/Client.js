@@ -101,7 +101,7 @@ const Client = () => {
                                                                     <div className="sep-search">
                                                                         <span id="act-sep">|</span>
                                                                     </div>
-                                                                    <input type="search" id="btn-apply" name="search" />
+                                                                    <input type="submit" value="Search" id="btn-apply" name="search" />
                                                                 </div>
                                                             </div>
                                                         </div>
