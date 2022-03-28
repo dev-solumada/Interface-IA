@@ -1,0 +1,48 @@
+.formSide
+{
+    width: 80%;
+    margin-left: 20%;
+}
+
+.saveButton
+{
+    background: #F8FAFC;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    padding: 8px 10px 8px 10px;
+    width: 80%;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.save
+{
+    border-radius: 50px;
+    padding: 5px 10px 5px 10px;
+    justify-content: space-evenly;
+}
+
+.save:hover
+{
+    background-color: white;
+}
+
+.save-ico
+{
+    color: green;
+    margin-right: 5px;
+}
+
+.save-text
+{
+    color: black;
+}
+
+.form-label
+{
+    font-family: 'IBM PLEX Sans';
+    font-size: 16px;
+    color: #091E31;
+}
